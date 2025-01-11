@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Font's -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="navbar">
+            <div class="logo">PORTFOLIO</div>
+            <ul class="links">
+                <li><a href="#hero" class="active">HOME</a></li>
+                <li><a href="#About">ABOUT</a></li>
+                <li><a href="#my_skills">SKILLS</a></li>
+                <li><a href="#my_work">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <a href="https://drive.google.com/file/d/your-resume-link/view" target="_blank" class="action_btn">Resume</a>
+            <img src="Images/moon.png" id="icon">
+
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown_menu ">
+            <li><a href="#hero" class="active">HOME</a></li>
+            <li><a href="#About">ABOUT</a></li>
+            <li><a href="#my_skills">SKILLS</a></li>
+            <li><a href="#my_work">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li> <a href="https://drive.google.com/file/d/your-resume-link/view" target="_blank" class="action_btn">Resume</a></li>
+        </div>
+
+    </header>
+
+    <!-- Hero section -->
+    <section id="hero">
+        <div class="textbox">
+            <h2>Hello, I am <br><span class="text">VIJAY ATHITHYAA.</span></h2>
+            <h3> And I'm a <span class="role text" style="font-size: 30px;">Business Analytics Enthusiast</span></h3>
+            <a href="#contact" class="btn">Let's Talk</a>
+            <div class="contact_icon">
+                <a href="https://github.com/vijayathithyaa"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/vijayathithyaa/"><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-discord"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=12148999378"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div>
+            <img id="hero-img" src="Images/WhatsApp Image 2025-01-10 at 15.21.28.jpeg">
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="About">
+        <div class="heading">
+            <h2>About <span class="text"> Me</span></h2>
+        </div>
+        <div class="content ">
+            <div class="myimg ">
+                <img class="portfolio_img" src="Images/about_me.jpeg">
+            </div>
+            <div class="contentbox  ">
+                <h3 id="head_content">I'm a Business Analytics Enthusiast</h3>
+                <p id="para2">I recently graduated in Electronics and Communication Engineering from SRM University, where I developed a strong technical foundation and a passion for problem-solving. Currently pursuing a Master's in Business Analytics and Artificial Intelligence at UT Dallas, I focus on applying AI-driven solutions to optimize business decision-making. With over 30 credit hours in courses like advanced statistics, predictive modeling, and machine learning, I’ve gained hands-on experience in programming and data analytics. During my tenure as a Business Analyst Trainee at Med Tour Easy,I gained knowledge by improving data integration, collection, and consolidation processes, leading to a 20% improvement in data processing efficiency. Analyzed datasets with over 1,000 entries, utilizing collaborative filtering and debugging techniques to streamline data access.Created Tableau dashboards and KPIs, automating reporting processes to reduce manual effort by 25%.Designed and implemented data visualization solutions to track project performance metrics, enhancing
+stakeholder understanding and enabling faster decision-making., and my leadership in the Rotaract Club at SRM University fostered cultural inclusivity through diverse events. My undergraduate projects, such as the Smart Voting System using AI and IoT and a Wireless Notice Board, highlight my innovation and technical acumen. Beyond academics, I actively participate in extracurricular activities as the Dance Lead in UTD's ISA Dance Club and as a member of the UTD Badminton Team. My skills span across Python, SQL, Tableau, MATLAB, and embedded systems, complemented by achievements in national-level technical symposiums and dance competitions. Balancing academics and extracurriculars, I am committed to making impactful contributions both in technology and community engagements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skill section -->
+    <div id="my_skills">
+        <section id="my_skills">
+            <div class="heading">
+                <h2>My <span class="text">Skills</span></h2>
+            </div>
+            <div class="skill_list" data-aos="fade-up">
+                <div class="skill">
+                    <h3>SQL</h3>
+                    <h4>95%</h4>
+                    <span class="skill_bar"></span>
+                    <span class="fill-bar html"></span>
+                </div>
+                <div class="skill">
+                    <h3>Python</h3>
+                    <h4>90%</h4>
+                    <span class="skill_bar"></span>
+                    <span class="fill-bar css"></span>
+                </div>
+                <div class="skill">
+                    <h3>Tableau</h3>
+                    <h4>85%</h4>
+                    <span class="skill_bar"></span>
+                    <span class="fill-bar JavaScript"></span>
+                </div>
+                <div class="skill">
+                    <h3>Excel</h3>
+                    <h4>80%</h4>
+                    <span class="skill_bar"></span>
+                    <span class="fill-bar c_plus"></span>
+                </div>
+                <div class="skill">
+                    <h3>R Studio</h3>
+                    <h4>75%</h4>
+                    <span class="skill_bar"></span>
+                    <span class="fill-bar C"></span>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Timeline section-->
+    <section id="timeline">
+        <div class="heading">
+            <h2>My <span class="text">Journey</span></h2>
+        </div>
+        <div class="Timeline-area">
+            <div class="timeline-content left-container">
+                <div class="box ">
+                    <h2>High School Degree</h2>
+                    <small>2020</small>
+                    <p>An excellent student who excels academically, demonstrating a deep understanding of various subjects and consistently achieving high grades. Additionally, an all-rounder excels beyond academics, showcasing talents in extracurricular activities, leadership, and interpersonal skills.I’am versatile, demonstrating a well-rounded personality with achievements that extend beyond the classroom, contributing positively to the school community.
+Skills: Sports Management · HDMI · Computer Science · Competitive Analysis · Cloud ComputingGraduated from Vellamal School with 80%, actively participated in cultural and dance competitions, winning accolades and showcasing leadership skills.
+                    Grade:80%</p>
+                    <span class="left-arrow"></span>
+                </div>
+            </div>
+            <div class="timeline-content right-container">
+                <div class="box ">
+                    <h2>Bachelor's Degree</h2>
+                    <small>2020-2024</small>
+                    <p>I’m a outstanding individual who epitomizes academic excellence, consistently securing the top position in studies. My commitment extends beyond the classroom, as evidenced by a myriad of successfully completed projects and internships. A true all-rounder, excels not only academically but also on the sports field, showcasing a versatile skill set. With a remarkable ability to balance intellectual pursuits with athletic achievements, I contribute significantly to the school community, embodying the essence of a well-rounded and accomplished student. Activities and societies: Secured Runner Up Place in Dance (IIT Madras Saarang,2023).Secured Third Place in Dance (Ethiraj College for Women,2022).Secured First Place in Dance( St.Thomas College for Arts and Science).Won second place in Paper Presentation during a National Level Technical Symposium organized by Easwari Engineering College.Adjudged as the best managed team for innovative Business idea by SRM business school Chennai.
+                    Grade:84%</p>
+                    <span class="right-arrow"></span>
+                </div>
+            </div>
+            <div class="timeline-content left-container">
+                <div class="box ">
+                    <h2>Internships</h2>
+                    <small>2023-2024</small>
+                    <p>At Med Tour Easy, Gained business intelligence as a Business Analyst trainee by improving data integration, collection, and consolidation processes, leading to a 20% improvement in data processing efficiency. Analyzed datasets with over 1,000 entries, utilizing collaborative filtering and debugging techniques to streamline data access. Created Tableau dashboards and KPIs, automating reporting processes to reduce manual effort by 25%. At Onload Gears, Marketing Intern : Engaged in proactive collaboration with diverse stakeholders to comprehensively gather and document business requirements which led to a 50% improvement in project alignment and streamlined development process.Conducted market research and competitor analysis to identify growth opportunities, resulting in a 30% increase in campaign effectiveness.. At Kaashiv Infotech, python intern: Utilized Python to develop projects focused on data analysis within 98% of the food industry. Developed user interfaces with modern JavaScript frameworks, HTML, CSS and Database which improved user satisfaction 32%.</p>
+                    <span class="left-arrow"></span>
+                </div>
+            </div>
+            <div class="timeline-content right-container">
+                <div class="box ">
+                    <h2>Graduate Studies</h2>
+                    <small>2024-Present</small>
+                    <p>I am currently pursuing a Master's in Business Analytics with Artificial Intelligence at UT Dallas, where I am gaining expertise in the following areas:Business Analytics with R,Modelling for Business analytics,Foundations of Programming for Business Analytics,Applied Machine Learning, Advanced Statistics for Data Science, Database Foundations, Business data warehousing, Data Visualization, Big Data, Predictive Analytics, Prescriptive Analytics, Operations analytics, Econometrics and Time Series Analysis.</p>
+                    <span class="right-arrow"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects section -->
+    <div id="my_work">
+        <section id="my_work">
+            <div class="heading">
+                <h2>My <span class="text">Work</span></h2>
+            </div>
+            <div class="projects">
+                <!-- Project-1 -->
+                <div class="grid-item">
+                    <div class="project_head">
+                        <img class="project_logo" src="Images/SMART VOTING SYSTEM USING AI and IOT.jpeg">
+                        <div>
+                            <h3>Smart Voting System using AI and IOT</h3>
+                        </div>
+                    </div>
+                    <div class="project_body">
+                        <p class="Description">Improved voting security by implementing facial recognition, fingerprint scanning, and biometric identification, reducing fraud risks by 30% in pilot testing with 200+ participants. Enhanced user accessibility and experience by integrating IoT-enabled devices for real-time voter verification and seamless voting process management. .</p>
+                        <p class="project_thumbnail">
+                            <img src="Images/SMART VOTING SYSTEM USING AI and IOT.jpeg">
+                        </p>
+                    </div>
+                </div>
+                <!-- Project-2 -->
+                <div class="grid-item">
+                    <div class="project_head">
+                        <img class="project_logo" src="Images/WIRELESS NOTICE BOARD USING IOT.jpeg">
+                        <div>
+                            <h3>Wireless Notice Board using IOT</h3>
+                        </div>
+                    </div>
+                    <div class="project_body">
+                        <p class="Description">Developed machine learning models for phishing website detection, achieving a 90% accuracy rate. Demonstrated expertise in feature engineering, data preprocessing, model selection and Integrated IoT-enabled devices for real-time notice updates and enhancing system efficiency.</p>
+                        <p class="project_thumbnail">
+                            <img src="Images/WIRELESS NOTICE BOARD USING IOT.jpeg">
+                           </p>
+                    </div>
+                </div>
+               <!-- project-3 -->
+
+                <div class="grid-item">
+                    <div class="project_head">
+                        <img class="project_logo" src="Images/html-5.png">
+                        <div>
+                            <h3>Human  Age,  Gender  And  Ethnicity  Identification  System  Using  Deep Learning </h3>
+                        
+                        </div>
+                    </div>
+                    <div class="project_body">
+                        <p class="Description">
+                            Developed a system which applies CNN for face detection and prediction of human age, gender and ethnicity using transfer learning
+                        </p>
+                        <p class="project_thumbnail">
+                            <img src="Images/age.jpeg">
+                        </p>
+                    </div>
+                    
+                </div>
+                <!-- project-4 -->
+                <div class="grid-item">
+                    <div class="project_head">
+                        <img class="project_logo" src="Images/html-5.png">
+                        <div>
+                            <h3>Heart Beat Monitoring Using Pulse Sensor</h3>
+                           
+                        </div>
+                    </div>
+                    <div class="project_body">
+                        <p class="Description">
+                            Designed a prototype that helps in measuring heart rate via sensor and a microcontroller pic16F877a using fingertip. 
+                        </p>
+                        <p class="project_thumbnail">
+                            <img src="Images/pulse.jpeg">
+                        </p>
+                    </div>
+                
+                </div>
+              <!-- project-5 -->
+
+                <div class="grid-item">
+                    <div class="project_head">
+                        <img class="project_logo" src="Images/html-5.png">
+                        <div>
+                            <h3>Farmer Vendor App</h3>
+                        </div>
+                    </div>
+                    <div class="project_body">
+                        <p class="Description">
+                            Designed  an  app  using  python  where  both  farmer  and  vendor  can  contact  directly  without  any intermediation – MAKE-A-THON
+                        </p>
+                        <p class="project_thumbnail">
+                            <img src="Images/farmer.jpeg">
+                        </p>
+                    </div>
+                    
+                </div>
+                <!-- project-6 -->
+                <div class="grid-item">
+                    <div class="project_head">
+                        <img class="project_logo" src="Images/html-5.png">
+                        <div>
+                            <h3>Line Follower Robot</h3>
+                    
+                        </div>
+                    </div>
+                    <div class="project_body">
+                        <p class="Description">
+                           The robot employs programming and control algorithms to navigate along the line, making decisions to turn left, right, or continue straight based on the sensor readings.
+                        </p>
+                        <p class="project_thumbnail">
+                            <img src="Images/line.jpeg">
+                        </p>
+                    </div>
+                    
+                </div>
+              
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="heading">
+            <h2>Contact <span class="text">Me!</span></h2>
+            <p style="margin-top: 5px;">Let's Work Together</p>
+        </div>
+        <div class="contact-container">
+            <div class="contact-item conc-1 ">
+                <h2>VIJAY ATHITHYAA</h2>
+                <a href="mailto:vijayathithyaa2002@gmail.com"><i class="fa-solid fa-envelope"></i>vijayathithyaa@gmail.com</a>
+                <br> <a href="tel:+12148999378"><i class="fa-solid fa-phone"></i>+1 2148999378</a>
+                <br> <a href="https://www.linkedin.com/in/vijayathithyaa/"><i class="fa-brands fa-linkedin fa-beat-fade"></i>LinkedIn</a>
+                <br> <a href="https://github.com/vijayathithyaa"><i class="fa-brands fa-github fa-beat-fade"></i>GitHub</a>
+                <br> <a href="https://www.instagram.com/_vijayyyy._?igsh=MXA3MHBzNWltdDZ4Ng%3D%3D&utm_source=qr"><i class="fa-brands fa-Instagram fa-beat-fade"></i>Instagram</a>
+                <br> <a href="https://https://whatsapp.com/biz/"><i class="fa-brands fa-Whatsapp fa-beat-fade"></i>Whatsapp</a>
+            </div>
+        </div>
+        <hr>
+        <footer class="footer">
+            <div class="footer_text">
+                <p>Copyright &copy; 2023 by Vijay Athithyaa | All Right Reserved</p>
+                <button id="scrollToTopBtn"><i class="fa-sharp fa-solid fa-arrow-up"></i></button>
+            </div>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
